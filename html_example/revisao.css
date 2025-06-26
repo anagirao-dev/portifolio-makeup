@@ -1,0 +1,17 @@
+body{
+
+    background-color:azure;
+}
+
+
+h1, h2, p, pre {
+    text-align: center;
+}
+
+
+.img_joe {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}

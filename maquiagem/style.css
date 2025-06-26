@@ -1,0 +1,26 @@
+body{
+    background-color:  #ffe6ea;
+}
+
+
+.cabecalho{
+    background-color: #ffb3bf;
+    text-align: center;
+    padding: 10px; 
+    border-radius:  5px;
+}
+
+.imagem_principal{
+    width: 300px;
+}
+
+.msg_footer{
+    background-color:#ffb3bf;
+    text-align: center; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ol{
+    font-size: 18px;
+}

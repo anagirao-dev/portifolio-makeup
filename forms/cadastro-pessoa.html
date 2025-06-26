@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro</title>
+</head>
+<body>
+<h1>Cadastro de Pessoa</h1>
+<form action="exibir.html" method="get">
+    <label for="nome">Nome</label> 
+    <input id="nome" type="text" name="nome"> <br><br>
+    <label for="email">E-mail </label>
+    <input id="email" type="email" name="email"> <br><br>
+    <label for="dtnasc">Data de Nascimento</label>
+    <input id="dtnasc" type="date" name="dtnasc"> <br><br>
+    
+    <p>Sexo</p>
+    <label for="masc">Masculino</label>
+    <input type="radio" id="masc" value="Masculino" name="x"> <br>
+    <label for="femi">Feminino</label>
+    <input type="radio" id="femi" value="Feminino" name="x"> <br>
+    <label for="outros">Outros</label>
+    <input type="radio" id="outros" value="Outros" name="x"> <br><br>
+
+    <p>O que você gosta de fazer?</p>
+    <input type="Checkbox" id="ler">
+    <label for="ler">ler livros</label>
+    <input type="Checkbox" id="bike">
+    <label for="bike">Andar de bicicleta</label>
+    <input type="Checkbox" id="cine">
+    <label for="cine">Ir ao cinema</label>
+
+
+    <br><br>
+    <input type="submit" value="Cadastar"> 
+</form>
+</body>
+</html>
